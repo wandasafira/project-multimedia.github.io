@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#Video{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#Video::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('Assets/image_1551418192_5c78c350c31f3.jpg') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+}
+.judulvideo{
+    font-size: 2em;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 25px;
+    text-align: center;
+    color : rgb(7, 101, 21);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    background-color:rgb(230, 200, 125);
+    border-radius: 20px;
+}
+.Vid{
+   width: 100%; 
+}
+.c-video{
+    width: 100%;
+    max-width: 1000px;
+}

@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.tombolatas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+.tombolatas ul{
+    display: flex;
+    list-style: none;
+    margin: 15px 0px;
+}
+.tombolatas ul li{
+    font-size: large ;
+    font-weight: bold;
+}
+.tombolatas ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 4px 40px;
+    transition: all .5s ease;
+}
+.tombolatas ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.Home .homee head{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#Home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+}
+#Home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('Assets/calories-counting-diet-food-control-and-weight-loss-concept-calorie-768.webp') no-repeat center center/cover;
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.head{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5rem;
+    font: bold;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+#story{
+    background-color: #cfc1ff;
+}
+.picstory{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #cfc1ff;
+}
+#Tips{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(220, 205, 65);
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-between ;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.second{
+    display: flex;
+    justify-content:space-between ;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.tipss h2{
+    text-align: center;
+    font-size: 20px;
+
+}
+#Tips .judul{
+    font-size: 35px;
+}
+.tipss{
+    line-height: 150%;
+    text-align: justify;
+    flex-basis: 31%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 25px 12px;
+    box-sizing: border-box;
+}
+.tipss:hover{
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.last{
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#whywhy{
+    background-color: rgb(35, 156, 55);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 575px;
+    height: 400px;
+    margin-bottom: 200px;
+    margin-top: 130px;
+}
+#whydiet{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 100px;
+}
+#whydiet h2{
+    font-size: 35px;
+    color: rgb(237, 223, 114);
+    margin-bottom: 20px;
+    text-align: center;
+}
+#whydiet p{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: 150%;
+}
+#CP{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: rgb(80, 48, 3);
+}
+.anrow{
+    margin-top: 5%;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content:space-between ;
+}
+.tworow{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content:space-between ;
+}
+.anrow .kotak img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.tworow .kotak img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.kotak{
+    height: 250px;
+    flex-basis: 30%;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+.kotak:hover{
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+.title{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
